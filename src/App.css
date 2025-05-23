@@ -1,0 +1,10 @@
+.icon-container .icons,
+.icon-container .add-to-cart {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.icon-container:hover .icons,
+.icon-container:hover .add-to-cart {
+    opacity: 1;
+}
